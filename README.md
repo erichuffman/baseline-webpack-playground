@@ -6,15 +6,6 @@ Based off of the [webpack-starter-basic](https://github.com/lifenautjoe/webpack-
 
 ## Usage
 
-Substitute `PROJECT-NAME` for your project name.
-
-Clone the repository
-
-```sh
- git clone https://github.com/lifenautjoe/webpack-starter-basic PROJECT-NAME
- cd PROJECT-NAME
-```
-
 Install npm dependencies
 
 ```sh

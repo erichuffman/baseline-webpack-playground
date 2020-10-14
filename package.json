@@ -7,6 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "webpack-dev-server --config webpack.dev.js --mode development",
         "build": "webpack --config webpack.prod.js --mode production",
+        "publish": "webpack --config webpack.pub.js --mode production",
         "preview": "npm run build && http-server dist"
     },
     "repository": {
@@ -19,6 +20,9 @@
     "bugs": {
         "url": ""
     },
+    "browserslist": [
+        "last 2 versions"
+    ],
     "homepage": "",
     "dependencies": {
         "normalize.css": "^8.0.1"
